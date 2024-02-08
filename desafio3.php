@@ -11,6 +11,8 @@
     </a>
     <br>
     <form action="#" >
+        Nome: <br>
+        <input type='text' name="nome" id="nome">  <br>
         Genero:  <br> 
         <input type='text' name="gene" id="gene">  <br>
         idade:  <br>
@@ -19,16 +21,14 @@
     </form>
     <?php
         if(isset($_GET['gene']) and isset($_GET['idade'])){
+            $nome = $_GET['nome'];
             $gene = $_GET['gene'];
             $idade= $_GET['idade'];
-            if($idade <= 25) {
-                if($gene=='F' or $gene=='Feminino' or $gene='f' or $gene== 'feminino') {
-                    echo 'Aceito!';
-                }else{
-                    echo 'Negado!';
-                }
+            
+            if($idade <= 25 && $gene == 'F') {
+                echo $nome . ' Aceito!';
             }else{
-                echo 'Negado!';
+                echo $nome . ' Negado!';
             }
         }
 ?>
