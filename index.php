@@ -38,5 +38,13 @@
         <button>Desafio 8.</button>
     </a>
     <br>
+    <a href="desafio9.php">
+        <button>Desafio 9.</button>
+    </a>
+    <br>
+    <a href="desafio10.php">
+        <button>Desafio 10.</button>
+    </a>
+    <br>
 </body>
 </html>

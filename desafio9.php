@@ -3,7 +3,7 @@
 <html>
     <head>
 
-        <title>Número 4</title>
+        <title>Número 9</title>
             <style>
                 .item{
                 font-size: 20px;
@@ -24,13 +24,9 @@
     </a>
 <div class="caixa">
     <div class="item">
-    <form action='pg2da4.php' method='POST'>
-            <h1>Primeiro número</h1>
-            <input type='text' name='n1' id='n1'>
-            <h1>Segundo número</h1>
-            <input type='text' name='n2' id='n2'>
-            <h1>Terceiro número</h1>
-            <input type='text' name='n3' id='n3'>
+    <form action='pg2da9.php' method='POST'>
+            <h1>Digite 20 numeros colocando virgula entre elas: ex: 23,53,2,-54</h1>
+            <input type='text' name='numeros' id='numeros'>
             <input type='submit' value='Enviar'>
         </form>
         </div>

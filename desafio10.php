@@ -3,7 +3,7 @@
 <html>
     <head>
 
-        <title>Número 4</title>
+        <title>Número 7</title>
             <style>
                 .item{
                 font-size: 20px;
@@ -23,14 +23,10 @@
         <button>Voltar!</button>
     </a>
 <div class="caixa">
-    <div class="item">
-    <form action='pg2da4.php' method='POST'>
-            <h1>Primeiro número</h1>
-            <input type='text' name='n1' id='n1'>
-            <h1>Segundo número</h1>
-            <input type='text' name='n2' id='n2'>
-            <h1>Terceiro número</h1>
-            <input type='text' name='n3' id='n3'>
+<div class="item">
+    <form action='pg2da10.php' method='POST'>
+            <h1>Coloque Uma palavra de seu agrado: </h1>
+            <input type='text' name='texto' id='texto'>
             <input type='submit' value='Enviar'>
         </form>
         </div>
